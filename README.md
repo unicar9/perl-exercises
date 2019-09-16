@@ -6,3 +6,5 @@
 
 - [A Perl function to prompt users during interactive command-line input](https://alvinalexander.com/perl/edu/articles/pl010005)
 - [sprintf docs](https://perldoc.perl.org/functions/sprintf.html)
+- [How should I use the “my” keyword in Perl?](https://stackoverflow.com/questions/20889609/how-should-i-use-the-my-keyword-in-perl)
+- [Why use strict and warnings?](https://stackoverflow.com/questions/8023959/why-use-strict-and-warnings/8024241#8024241)
