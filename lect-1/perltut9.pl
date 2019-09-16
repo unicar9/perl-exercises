@@ -1,0 +1,1 @@
+# (9) Modify the program from (2) so that if the BMI calculated is less than 18.5, as well as printing the BMI, the program prints “Your BMI is a little low”. If it is greater than 24.9, the program should print “Your BMI is a little high”. Otherwise it should print “Your BMI is in an acceptable range”.
