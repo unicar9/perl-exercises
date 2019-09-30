@@ -15,7 +15,7 @@ while (!$valid) {
   print "Enter your given name:"; 
   $given_name = <STDIN>;
   chomp($given_name);
-  if ( $given_name =~ /\b[A-Z][a-z]+\b/g ) {
+  if ( $given_name =~ /^[A-Z][a-z][a-z]*( [A-Z][a-z][a-z]*)*$/ ) {
     $valid = 1;
   } else {
     print "The given name enered must begin with a capital first letter and be at least two characters in length.\n";
@@ -28,7 +28,7 @@ while (!$valid) {
   print "Enter your family name:"; 
   $family_name = <STDIN>;
   chomp($family_name);
-  if ( $family_name =~ /\b[A-Z][a-z]+\b/g ) {
+  if ( $family_name =~ /(\b[A-Z][a-z]+\b)/g ) {
     $valid = 1;
   } else {
     print "The family name enered must begin with a capital first letter and be at least two characters in length.\n";
