@@ -6,7 +6,7 @@ use strict;
 
 open (FILE, "./india_captains.txt") or die "$!";
 
-while(my $current_line = <FILE>) {
+while (my $current_line = <FILE>) {
   chomp($current_line);
   my @data_fields = split ",", $current_line;
   print $data_fields[0]."\n"
