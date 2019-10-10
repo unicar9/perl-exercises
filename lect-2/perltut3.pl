@@ -11,5 +11,5 @@ while (!$valid) {
   print "Enter an amount between 0 and 9999.99: ";
   $amount = <STDIN>;
   chomp($amount);
-  if ($amount =~ /^[+][][]\.[0-9][0-9]*/)
+  if ($amount =~ /^[+]?[0-9]{1,4}\.[0-9][0-9]$/)
 }

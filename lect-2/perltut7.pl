@@ -4,3 +4,14 @@
 
 use strict;
 
+my $string;
+my $valid = 0;
+
+while (!$valid) {
+  print "Enter a string of the form <pattern>XY<pattern>: ";
+  $string = <STDIN>;
+  chomp($string);
+  if ($string =~ /^(.*)XY\1$/) {
+    $valid = 1;
+  }
+}

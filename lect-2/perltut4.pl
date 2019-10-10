@@ -4,3 +4,16 @@
 
 use strict;
 
+my $amount;
+my $valid = 0;
+
+while (!$valid) {
+  print "Enter an amount between 0 and 5999.99: ";
+  $amount = <STDIN>;
+  chomp($amount);
+  if ($amount =~ /^[+]?[0-5]?[0-9]{1,3}\.[0-9][0-9]$/) {
+    $valid = 1; 
+  }
+}
+
+print "$amount is valid\n";

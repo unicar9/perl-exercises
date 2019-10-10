@@ -3,3 +3,16 @@
 #!/usr/bin/perl -w
 
 use strict;
+
+my $amount;
+my $valid = 0;
+while (!$valid) {
+  print "Enter an amount between 0 and 5999.99: ";
+  $amount = <STDIN>;
+  chomp($amount);
+  if ($amount =~ /^\+?[0-5]?\d{1,3}(\.\d{1,2})?$/ ) {
+    $valid = 1; 
+  }
+}
+
+print "$amount is valid\n";
