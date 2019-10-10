@@ -4,7 +4,7 @@
 
 use strict;
 
-open(FILE, "./india_captains.txt") or die "$!";
+open(FILE, "india_captains.txt") or die "$!";
 
 my $index = 0;
 my @captains;

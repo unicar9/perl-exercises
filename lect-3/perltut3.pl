@@ -4,7 +4,7 @@
 
 use strict;
 
-open (FILE, "./india_captains.txt") or die "$!";
+open (FILE, "india_captains.txt") or die "$!";
 
 while (my $current_line = <FILE>) {
   chomp($current_line);
