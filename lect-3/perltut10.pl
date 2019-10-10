@@ -1,0 +1,1 @@
+# (10) You are given a set of dates in a file. They need to be sorted. The dates are in the format DD- MM-YYYY. Write a program to populate an array from a file. The sorted dates need to be written back into a new file “sorted_dates.txt” in the format DD-MM-YYYY. How are you going to sort them? Hint: split and reverse are your friends.

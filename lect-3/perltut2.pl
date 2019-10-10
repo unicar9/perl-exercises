@@ -1,0 +1,1 @@
+# (2) Make a copy of your working answer from (1). Write a program that extracts the names of the captains from the file and puts them in an array. The program should then print the number of elements in the array and the index number of the last element in the array.

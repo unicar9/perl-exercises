@@ -1,0 +1,33 @@
+CK Nayudu,0,3,1 
+Maharajkumar of Vizianagram,0,2,1
+Iftikhar Ali Khan Pataudi,0,1,2
+Lala Amarnath,2,6,7
+Vijay Hazare,1,5,8
+Vinoo Mankad,0,1,5
+Ghulam Ahmed,0,2,1
+Polly Umrigar,2,2,4
+Hemu Adhikari,0,0,1
+Datta Gaekwad,0,4,0
+Pankaj Roy,0,1,0
+Gulabrai Ramchand,1,2,2
+Nari Contractor,2,2,8
+Mansour Ali Khan Pataudi,9,19,12
+Chandu Borde,0,1,0
+Ajit Wadekar,4,4,8
+Srinivas Venkataraghavan,0,2,3
+Sunil Gavaskar,9,8,30
+Bishan Singh Bedi,6,11,5
+Gundappa Viswanath,0,1,1
+Kapil Dev,4,7,23
+Dilip Vengsarkar,2,5,3
+Ravi Shastri,1,0,0
+Krishnamachari Srikkanth,0,0,4
+Mohammad Azharuddin,14,14,19
+Sachin Tendulkar,4,9,12
+Sourav Ganguly,21,13,15
+Rahul Dravid,8,6,11
+Virender Sehwag,2,1,1
+Anil Kumble,3,5,6
+Mahendra Singh Dhoni,27,18,15
+Virat Kohli,22,9,9
+Ajinkya Rahane,2,0,0

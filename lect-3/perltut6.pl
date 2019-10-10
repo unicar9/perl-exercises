@@ -1,0 +1,1 @@
+# (6) Write a program that prints the name of each captain (left justified in a 30 character width) and the percentage of total games played that they won as captain. i.e. field 1/sum of fields (1,2,3) expressed as a percentage to two decimal places. Hint: You will have to use printf for the captain’s name and the percentage.
