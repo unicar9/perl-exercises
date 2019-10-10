@@ -9,3 +9,24 @@
 # print “$key $hash{$key}”; }
 # Note that the keys function extracts the keys from the hash %hash. Again, be very careful with the %,$,(,),{ and } symbols).
 # Note that two hashes produced using the two different methods with identical input data will probably not list the hashes in the same order.
+
+#!/usr/bin/perl -w
+
+use strict;
+
+open (INFILE, "india_captains.txt") or die "$!";
+
+my %wins;
+
+while (my $current_line = <INFILE>) {
+  chomp($current_line);
+  my @data_fields = split ",",$current_line;
+  my @game_data = @data_fields[1,2,3];
+  my $total_games = eval join '+', @game_data;
+  my $percentage = ($game_data[1]/$total_games)*100;
+  $wins{$data_fields[0]} = $percentage;
+}
+
+foreach my $key (keys %wins) {
+  printf("%-30s%5.2f\n", $key, $wins{$key});
+}
