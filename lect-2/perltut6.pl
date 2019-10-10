@@ -4,12 +4,14 @@
 
 use strict;
 
-my $istr = <STDIN>;
+my $string;
+my $valid = 0;
 
-if ($istr =~ /^(abc)(.+)XY\2$/) {
-  print $istr," is palindrome\n";
-} else {
-  print "haha you're stupid\n"
+while (!$valid) {
+  print "Enter a string of the form <pattern>XY<pattern>: ";
+  $string = <STDIN>;
+  chomp($string);
+  if ($string =~ /^(.+)XY\1$/) {
+    $valid = 1;
+  }
 }
-
-#  /^((\w)(?1)\g{-1}|\w?)$/
